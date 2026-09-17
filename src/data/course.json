@@ -45,28 +45,28 @@
                       "title": "C Primer 中文版",
                       "label": "C Primer 中文版",
                       "kind": "pdf",
-                      "source": "https://courses.vsplab.cn/resources/cs100/books/C_Primer_CN.pdf",
+                      "source": "/CS100-site/resources/cs100/books/C_Primer_CN.pdf",
                       "status": "available"
                     },
                     {
                       "title": "C++ 沉思录（中文版）",
                       "label": "C++ 沉思录（中文版）",
                       "kind": "pdf",
-                      "source": "https://courses.vsplab.cn/resources/cs100/books/CPP_Ruminations_CN.pdf",
+                      "source": "/CS100-site/resources/cs100/books/CPP_Ruminations_CN.pdf",
                       "status": "available"
                     },
                     {
                       "title": "Effective C++ 中文版",
                       "label": "Effective C++ 中文版",
                       "kind": "pdf",
-                      "source": "https://courses.vsplab.cn/resources/cs100/books/Effective_CPP_CN.pdf",
+                      "source": "/CS100-site/resources/cs100/books/Effective_CPP_CN.pdf",
                       "status": "available"
                     },
                     {
                       "title": "Effective Modern C++ 中文版",
                       "label": "Effective Modern C++ 中文版",
                       "kind": "pdf",
-                      "source": "https://courses.vsplab.cn/resources/cs100/books/Effective_Modern_CPP_CN.pdf",
+                      "source": "/CS100-site/resources/cs100/books/Effective_Modern_CPP_CN.pdf",
                       "status": "available"
                     }
                   ]
@@ -78,28 +78,28 @@
                       "title": "C Primer",
                       "label": "C Primer",
                       "kind": "pdf",
-                      "source": "https://courses.vsplab.cn/resources/cs100/books/C_Primer.pdf",
+                      "source": "/CS100-site/resources/cs100/books/C_Primer.pdf",
                       "status": "available"
                     },
                     {
                       "title": "21st Century C",
                       "label": "21st Century C",
                       "kind": "pdf",
-                      "source": "https://courses.vsplab.cn/resources/cs100/books/21st_Century_C.pdf",
+                      "source": "/CS100-site/resources/cs100/books/21st_Century_C.pdf",
                       "status": "available"
                     },
                     {
                       "title": "Effective C++",
                       "label": "Effective C++",
                       "kind": "pdf",
-                      "source": "https://courses.vsplab.cn/resources/cs100/books/Effective_CPP.pdf",
+                      "source": "/CS100-site/resources/cs100/books/Effective_CPP.pdf",
                       "status": "available"
                     },
                     {
                       "title": "Effective Modern C++",
                       "label": "Effective Modern C++",
                       "kind": "pdf",
-                      "source": "https://courses.vsplab.cn/resources/cs100/books/Effective_Modern_CPP.pdf",
+                      "source": "/CS100-site/resources/cs100/books/Effective_Modern_CPP.pdf",
                       "status": "available"
                     }
                   ]
