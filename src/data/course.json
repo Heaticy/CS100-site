@@ -192,7 +192,7 @@
                   "title": "Lecture 0: Introduction PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2026/lec00.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2026/lec00.pdf",
                   "status": "available"
                 }
               }
@@ -207,7 +207,7 @@
                   "title": "Lecture 1 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2026/lec01.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2026/lec01.pdf",
                   "status": "available"
                 }
               }
@@ -222,7 +222,7 @@
                   "title": "Lecture 2 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2026/lec02.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2026/lec02.pdf",
                   "status": "available"
                 }
               }
@@ -252,14 +252,14 @@
                   "title": "Recitation 0: Environment Setup Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r0.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r0.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 0: Environment Setup PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r0.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r0.pdf",
                   "status": "available"
                 }
               },
@@ -283,14 +283,14 @@
                   "title": "Recitation 1: Introduction to CS100 and C/C++ Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r1.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r1.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 1: Introduction to CS100 and C/C++ PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r1.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r1.pdf",
                   "status": "available"
                 }
               },
@@ -314,14 +314,14 @@
                   "title": "Recitation 2: Data Types, Literals & Operators Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r2.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r2.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 2: Data Types, Literals & Operators PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r2.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r2.pdf",
                   "status": "available"
                 }
               },
@@ -345,14 +345,14 @@
                   "title": "Recitation 3: Control Flow and Preprocessing Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r3.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r3.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 3: Control Flow and Preprocessing PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r3.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r3.pdf",
                   "status": "available"
                 }
               },
@@ -376,14 +376,14 @@
                   "title": "Recitation 4: Pointers & Arrays Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r4.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r4.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 4: Pointers & Arrays PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r4.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r4.pdf",
                   "status": "available"
                 }
               },
@@ -438,14 +438,14 @@
                   "title": "Recitation 5: IO and Compound Data Structures Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r5.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r5.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 5: IO and Compound Data Structures PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r5.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r5.pdf",
                   "status": "available"
                 }
               },
@@ -469,14 +469,14 @@
                   "title": "Recitation 6: Hello, C++! Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r6.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r6.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 6: Hello, C++! PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r6.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r6.pdf",
                   "status": "available"
                 }
               },
@@ -500,14 +500,14 @@
                   "title": "Bonus: Git Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/bonus-git.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/bonus-git.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Bonus: Git PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/bonus-git.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/bonus-git.pdf",
                   "status": "available"
                 }
               },
@@ -531,14 +531,14 @@
                   "title": "Recitation 7: References, Value Categories, new/delete Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r7.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r7.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 7: References, Value Categories, new/delete PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r7.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r7.pdf",
                   "status": "available"
                 }
               },
@@ -562,14 +562,14 @@
                   "title": "Recitation 8: class Basics Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r8.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r8.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 8: class Basics PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r8.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r8.pdf",
                   "status": "available"
                 }
               },
@@ -593,14 +593,14 @@
                   "title": "Recitation 9: Dynarray Example Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r9.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r9.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 9: Dynarray Example PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r9.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r9.pdf",
                   "status": "available"
                 }
               },
@@ -624,14 +624,14 @@
                   "title": "Recitation 10: Copy and Move Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r10.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r10.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 10: Copy and Move PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r10.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r10.pdf",
                   "status": "available"
                 }
               },
@@ -655,14 +655,14 @@
                   "title": "Recitation 11: Operator Overloading Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r11.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r11.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 11: Operator Overloading PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r11.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r11.pdf",
                   "status": "available"
                 }
               },
@@ -686,14 +686,14 @@
                   "title": "Recitation 12: Iterators and Algorithms Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r12.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r12.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 12: Iterators and Algorithms PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r12.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r12.pdf",
                   "status": "available"
                 }
               },
@@ -717,14 +717,14 @@
                   "title": "Recitation 13: Makefile Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r13.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r13.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 13: Makefile PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/r13.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/r13.pdf",
                   "status": "available"
                 }
               },
@@ -755,14 +755,14 @@
                   "title": "Lecture 0 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l0.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l0.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 0 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l0.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l0.pdf",
                   "status": "available"
                 }
               }
@@ -777,14 +777,14 @@
                   "title": "Lecture 1 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l1.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l1.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 1 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l1.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l1.pdf",
                   "status": "available"
                 }
               }
@@ -799,14 +799,14 @@
                   "title": "Lecture 2 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l2.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l2.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 2 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l2.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l2.pdf",
                   "status": "available"
                 }
               }
@@ -821,14 +821,14 @@
                   "title": "Lecture 3 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l3.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l3.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 3 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l3.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l3.pdf",
                   "status": "available"
                 }
               }
@@ -843,14 +843,14 @@
                   "title": "Lecture 4 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l4.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l4.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 4 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l4.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l4.pdf",
                   "status": "available"
                 }
               }
@@ -865,14 +865,14 @@
                   "title": "Lecture 5 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l5.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l5.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 5 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l5.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l5.pdf",
                   "status": "available"
                 }
               }
@@ -887,14 +887,14 @@
                   "title": "Lecture 6 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l6.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l6.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 6 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l6.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l6.pdf",
                   "status": "available"
                 }
               }
@@ -909,14 +909,14 @@
                   "title": "Lecture 7 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l7.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l7.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 7 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l7.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l7.pdf",
                   "status": "available"
                 }
               }
@@ -931,14 +931,14 @@
                   "title": "Lecture 8 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l8.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l8.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 8 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l8.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l8.pdf",
                   "status": "available"
                 }
               }
@@ -953,14 +953,14 @@
                   "title": "Lecture 9 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l9.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l9.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 9 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l9.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l9.pdf",
                   "status": "available"
                 }
               }
@@ -975,14 +975,14 @@
                   "title": "Lecture 10 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l10.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l10.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 10 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l10.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l10.pdf",
                   "status": "available"
                 }
               }
@@ -997,14 +997,14 @@
                   "title": "Lecture 11 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l11.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l11.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 11 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l11.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l11.pdf",
                   "status": "available"
                 }
               }
@@ -1019,14 +1019,14 @@
                   "title": "Lecture 12 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l12.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l12.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 12 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l12.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l12.pdf",
                   "status": "available"
                 }
               }
@@ -1041,14 +1041,14 @@
                   "title": "Lecture 13 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l13.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l13.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 13 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l13.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l13.pdf",
                   "status": "available"
                 }
               }
@@ -1063,14 +1063,14 @@
                   "title": "Lecture 14 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l14.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l14.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 14 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l14.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l14.pdf",
                   "status": "available"
                 }
               }
@@ -1085,14 +1085,14 @@
                   "title": "Lecture 15 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l15.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l15.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 15 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l15.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l15.pdf",
                   "status": "available"
                 }
               }
@@ -1107,14 +1107,14 @@
                   "title": "Lecture 16 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l16.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l16.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 16 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l16.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l16.pdf",
                   "status": "available"
                 }
               }
@@ -1129,14 +1129,14 @@
                   "title": "Lecture 17 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l17.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l17.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 17 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l17.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l17.pdf",
                   "status": "available"
                 }
               }
@@ -1151,14 +1151,14 @@
                   "title": "Lecture 18 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l18.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l18.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 18 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l18.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l18.pdf",
                   "status": "available"
                 }
               }
@@ -1173,14 +1173,14 @@
                   "title": "Lecture 19 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l19.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l19.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 19 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l19.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l19.pdf",
                   "status": "available"
                 }
               }
@@ -1195,14 +1195,14 @@
                   "title": "Lecture 20 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l20.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l20.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 20 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l20.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l20.pdf",
                   "status": "available"
                 }
               }
@@ -1217,14 +1217,14 @@
                   "title": "Lecture 21 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l21.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l21.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 21 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l21.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l21.pdf",
                   "status": "available"
                 }
               }
@@ -1239,14 +1239,14 @@
                   "title": "Lecture 22 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l22.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l22.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 22 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l22.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l22.pdf",
                   "status": "available"
                 }
               }
@@ -1261,14 +1261,14 @@
                   "title": "Lecture 23 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l23.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l23.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 23 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l23.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l23.pdf",
                   "status": "available"
                 }
               }
@@ -1298,14 +1298,14 @@
                   "title": "Lecture 25 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l25.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l25.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 25 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l25.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l25.pdf",
                   "status": "available"
                 }
               }
@@ -1320,14 +1320,14 @@
                   "title": "Lecture 26 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l26.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l26.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 26 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l26.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l26.pdf",
                   "status": "available"
                 }
               }
@@ -1342,14 +1342,14 @@
                   "title": "Lecture 27 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l27.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l27.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 27 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l27.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l27.pdf",
                   "status": "available"
                 }
               }
@@ -1364,14 +1364,14 @@
                   "title": "Lecture 28 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l28.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l28.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Lecture 28 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l28.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2025/lectures/l28.pdf",
                   "status": "available"
                 }
               }
@@ -1401,14 +1401,14 @@
                   "title": "Recitation 1 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r1.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r1.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 1 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r1.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r1.pdf",
                   "status": "available"
                 }
               },
@@ -1432,14 +1432,14 @@
                   "title": "Recitation 2 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r2.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r2.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 2 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r2.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r2.pdf",
                   "status": "available"
                 }
               },
@@ -1463,14 +1463,14 @@
                   "title": "Recitation 3 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r3.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r3.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 3 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r3.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r3.pdf",
                   "status": "available"
                 }
               },
@@ -1494,14 +1494,14 @@
                   "title": "Bonus: Git Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r3-5.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r3-5.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Bonus: Git PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r3-5.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r3-5.pdf",
                   "status": "available"
                 }
               },
@@ -1525,14 +1525,14 @@
                   "title": "Recitation 4 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r4.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r4.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 4 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r4.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r4.pdf",
                   "status": "available"
                 }
               },
@@ -1556,14 +1556,14 @@
                   "title": "Recitation 5 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r5.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r5.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 5 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r5.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r5.pdf",
                   "status": "available"
                 }
               },
@@ -1587,14 +1587,14 @@
                   "title": "Recitation 6 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r6.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r6.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 6 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r6.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r6.pdf",
                   "status": "available"
                 }
               },
@@ -1618,14 +1618,14 @@
                   "title": "Recitation 7 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r7.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r7.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 7 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r7.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r7.pdf",
                   "status": "available"
                 }
               },
@@ -1649,14 +1649,14 @@
                   "title": "Recitation 8 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r8.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r8.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 8 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r8.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r8.pdf",
                   "status": "available"
                 }
               },
@@ -1680,14 +1680,14 @@
                   "title": "Recitation 9 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r9.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r9.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 9 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r9.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r9.pdf",
                   "status": "available"
                 }
               },
@@ -1711,14 +1711,14 @@
                   "title": "Recitation 10 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r10.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r10.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 10 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r10.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r10.pdf",
                   "status": "available"
                 }
               },
@@ -1742,14 +1742,14 @@
                   "title": "Recitation 11 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r11.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r11.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 11 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r11.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r11.pdf",
                   "status": "available"
                 }
               },
@@ -1773,14 +1773,14 @@
                   "title": "Recitation 12 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r12.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r12.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 12 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r12.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r12.pdf",
                   "status": "available"
                 }
               },
@@ -1804,14 +1804,14 @@
                   "title": "Recitation 13 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r13.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r13.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 13 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r13.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r13.pdf",
                   "status": "available"
                 }
               },
@@ -1835,14 +1835,14 @@
                   "title": "Recitation 14 Web Slides",
                   "label": "Web",
                   "kind": "html",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r14.html",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r14.html",
                   "status": "legacy-html"
                 },
                 "pdf": {
                   "title": "Recitation 14 PDF",
                   "label": "PDF",
                   "kind": "pdf",
-                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r14.pdf",
+                  "source": "/CS100-site/resources/cs100/generated/fall2024/recitations/r14.pdf",
                   "status": "available"
                 }
               },
