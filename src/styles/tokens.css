@@ -1,0 +1,52 @@
+:root {
+  color-scheme: light;
+
+  --vsp-bg: #eef5f7;
+  --vsp-bg-elevated: rgba(240, 248, 250, 0.76);
+  --vsp-surface: rgba(255, 255, 255, 0.68);
+  --vsp-surface-2: rgba(247, 252, 253, 0.72);
+  --vsp-surface-soft: rgba(255, 255, 255, 0.82);
+  --vsp-surface-glass: rgba(247, 253, 254, 0.72);
+  --vsp-surface-hover: rgba(225, 247, 249, 0.82);
+  --vsp-line: rgba(68, 118, 130, 0.2);
+  --vsp-line-strong: rgba(28, 110, 127, 0.42);
+  --vsp-line-subtle: rgba(108, 148, 157, 0.14);
+
+  --vsp-text: #102830;
+  --vsp-text-muted: #385762;
+  --vsp-text-soft: #617b84;
+  --vsp-primary: #007f95;
+  --vsp-primary-strong: #006f8d;
+  --vsp-primary-deep: #07546d;
+  --vsp-primary-hover: #003f56;
+  --vsp-on-primary: #ffffff;
+  --vsp-accent: #ba3f5c;
+  --vsp-accent-2: #df675f;
+  --vsp-accent-soft: rgba(186, 63, 92, 0.1);
+  --vsp-on-accent: #ffffff;
+  --vsp-success: #187651;
+  --vsp-warn: #8a5b0a;
+  --vsp-danger: #b42318;
+  --vsp-focus: #007f95;
+
+  --vsp-grid-line: rgba(31, 133, 151, 0.08);
+  --vsp-glow-cyan: rgba(36, 225, 229, 0.2);
+  --vsp-glow-blue: rgba(44, 137, 223, 0.14);
+  --vsp-glow-accent: rgba(223, 87, 109, 0.12);
+  --vsp-card-gradient: linear-gradient(145deg, rgba(255, 255, 255, 0.82), rgba(231, 246, 248, 0.55));
+  --vsp-primary-gradient: linear-gradient(135deg, #07546d, #008da1);
+  --vsp-hero-gradient: linear-gradient(120deg, #0b2832, #0a4657 58%, #08687a);
+  --vsp-accent-gradient: linear-gradient(135deg, #b33255, #ec725e);
+
+  --vsp-radius-sm: 6px;
+  --vsp-radius-md: 8px;
+  --vsp-radius-lg: 8px;
+  --vsp-shadow-soft: 0 24px 64px rgba(13, 56, 69, 0.12);
+  --vsp-shadow-line: inset 0 1px 0 rgba(255, 255, 255, 0.78), 0 0 0 1px rgba(255, 255, 255, 0.22);
+  --vsp-font-sans: "VSP Puhui", "Alibaba PuHuiTi 3.0", "Noto Sans CJK SC", sans-serif;
+  --vsp-font-display: "VSP Puhui", "Alibaba PuHuiTi 3.0", "Noto Sans CJK SC", sans-serif;
+  --vsp-font-latin: "VSP Inter", Inter, Arial, sans-serif;
+  --vsp-font-mono: "VSP Inter", "SFMono-Regular", Consolas, monospace;
+  --vsp-container: 1180px;
+  --vsp-header-height: 68px;
+}

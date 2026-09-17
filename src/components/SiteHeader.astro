@@ -1,0 +1,104 @@
+---
+const currentPath = Astro.url.pathname.replace(/\/+$/, "") || "/";
+const base = import.meta.env.BASE_URL.replace(/\/+$/, "");
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href={`${base}/`} aria-label="CS100 首页">
+      <span class="brand-mark" aria-hidden="true">C</span>
+      <span class="brand-copy">
+        <strong>CS100 计算机编程</strong>
+        <small>上海科技大学 · 2026 Fall</small>
+      </span>
+    </a>
+    <nav class="nav" aria-label="主导航">
+      <a href={`${base}/`} aria-current={currentPath === base || currentPath === `${base}` ? "page" : undefined}>首页</a>
+      <a href="https://piazza.com/class/mu0malee1hh3po/" target="_blank" rel="noreferrer">Piazza ↗</a>
+      <a href="https://www.gradescope.com/courses/1402185" target="_blank" rel="noreferrer">Gradescope ↗</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    border-bottom: 1px solid var(--vsp-line);
+    background: var(--vsp-surface-glass);
+  }
+
+  .header-inner {
+    display: flex;
+    min-height: var(--vsp-header-height);
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .brand {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+    gap: 12px;
+    color: var(--vsp-text);
+    text-decoration: none;
+  }
+
+  .brand-mark {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    color: #fff;
+    background: var(--vsp-primary-deep);
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+
+  .brand-copy {
+    display: grid;
+  }
+
+  .brand-copy strong {
+    font-size: 1.02rem;
+    line-height: 1.2;
+  }
+
+  .brand-copy small {
+    color: var(--vsp-text-soft);
+    font-size: 0.74rem;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .nav a {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: var(--vsp-radius-sm);
+    color: var(--vsp-text-muted);
+    font-size: 0.92rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 160ms ease, background 160ms ease;
+  }
+
+  .nav a:hover {
+    color: var(--vsp-primary-deep);
+    background: var(--vsp-surface-hover);
+  }
+
+  .nav a[aria-current="page"] {
+    color: var(--vsp-primary-deep);
+    background: var(--vsp-surface-2);
+  }
+</style>

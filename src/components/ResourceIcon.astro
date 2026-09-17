@@ -1,0 +1,162 @@
+---
+interface Props {
+  name:
+    | "home"
+    | "course"
+    | "publication"
+    | "note"
+    | "slides"
+    | "markdown"
+    | "pdf"
+    | "code"
+    | "html"
+    | "asset"
+    | "search"
+    | "video"
+    | "link";
+  label?: string;
+}
+
+const { name, label } = Astro.props;
+---
+
+<span class={`resource-icon ${name}`} aria-hidden={label ? undefined : "true"} aria-label={label}>
+  {
+    name === "home" && (
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="M4 11.2 12 4l8 7.2" />
+        <path d="M6.5 10.5V20h11v-9.5" />
+        <path d="M10 20v-5h4v5" />
+      </svg>
+    )
+  }
+  {
+    name === "course" && (
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="M5 5.5h10.5A2.5 2.5 0 0 1 18 8v11H7a2 2 0 0 1-2-2V5.5Z" />
+        <path d="M8 5.5V17a2 2 0 0 0 2 2" />
+        <path d="M10 9h5" />
+        <path d="M10 12h4" />
+      </svg>
+    )
+  }
+  {
+    name === "publication" && (
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="M6 4.5h9l3 3V20H6V4.5Z" />
+        <path d="M15 4.5V8h3" />
+        <path d="M9 11h6" />
+        <path d="M9 14h6" />
+        <path d="M9 17h4" />
+      </svg>
+    )
+  }
+  {
+    (name === "note" || name === "markdown") && (
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="M7 4.5h10V20H7V4.5Z" />
+        <path d="M10 9h4" />
+        <path d="M10 12h4" />
+        <path d="M10 15h3" />
+      </svg>
+    )
+  }
+  {
+    name === "slides" && (
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="M4 5.5h16v11H4v-11Z" />
+        <path d="M8 20h8" />
+        <path d="M12 16.5V20" />
+        <path d="M8 9h5" />
+        <path d="M8 12h8" />
+      </svg>
+    )
+  }
+  {
+    name === "pdf" && (
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="M6 4.5h8l4 4V20H6V4.5Z" />
+        <path d="M14 4.5V9h4" />
+        <path d="M8.5 16.5v-4h1.4a1.2 1.2 0 0 1 0 2.4H8.5" />
+        <path d="M12.2 12.5v4h1a2 2 0 0 0 0-4h-1Z" />
+        <path d="M16.2 16.5v-4h2.1" />
+        <path d="M16.2 14.5H18" />
+      </svg>
+    )
+  }
+  {
+    name === "code" && (
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="m9 8-4 4 4 4" />
+        <path d="m15 8 4 4-4 4" />
+        <path d="m13 6-2 12" />
+      </svg>
+    )
+  }
+  {
+    name === "html" && (
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="M5 5h14v14H5V5Z" />
+        <path d="m10 9-3 3 3 3" />
+        <path d="m14 9 3 3-3 3" />
+      </svg>
+    )
+  }
+  {
+    name === "asset" && (
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="M5 7.5h6l1.6 2H19v8.5H5V7.5Z" />
+        <path d="M8 13h8" />
+        <path d="M8 16h5" />
+      </svg>
+    )
+  }
+  {
+    name === "video" && (
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="M5 6.5h10v11H5v-11Z" />
+        <path d="m15 10 4-2.5v9L15 14" />
+        <path d="m9 10 3.5 2-3.5 2v-4Z" />
+      </svg>
+    )
+  }
+  {
+    name === "link" && (
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="M10 14a4.5 4.5 0 0 0 6.4.4l3-3a4.5 4.5 0 0 0-6.4-6.4l-1.7 1.7" />
+        <path d="M14 10a4.5 4.5 0 0 0-6.4-.4l-3 3a4.5 4.5 0 0 0 6.4 6.4l1.7-1.7" />
+      </svg>
+    )
+  }
+  {
+    name === "search" && (
+      <svg viewBox="0 0 24 24" role="img">
+        <circle cx="10.5" cy="10.5" r="5.5" />
+        <path d="m15 15 4 4" />
+      </svg>
+    )
+  }
+</span>
+
+<style>
+  .resource-icon {
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    color: currentColor;
+  }
+
+  .resource-icon svg {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.9;
+  }
+</style>

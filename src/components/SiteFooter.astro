@@ -1,0 +1,70 @@
+---
+const base = import.meta.env.BASE_URL.replace(/\/+$/, "");
+---
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>CS100 计算机编程</strong>
+      <p>上海科技大学 信息科学与技术学院 · 2026 Fall · 授课教师：张芯韵 助理教授</p>
+    </div>
+    <nav class="footer-links" aria-label="页脚导航">
+      <a href={`${base}/`}>首页</a>
+      <a href="https://piazza.com/class/mu0malee1hh3po/" target="_blank" rel="noreferrer">Piazza</a>
+      <a href="https://www.gradescope.com/courses/1402185" target="_blank" rel="noreferrer">Gradescope</a>
+      <a href="https://sist.shanghaitech.edu.cn/" target="_blank" rel="noreferrer">信息学院官网</a>
+    </nav>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--vsp-line);
+    color: var(--vsp-text-soft);
+    background: var(--vsp-surface);
+  }
+
+  .footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 24px 0;
+  }
+
+  .footer-inner p,
+  .footer-inner strong {
+    margin: 0;
+  }
+
+  .footer-inner p {
+    color: var(--vsp-text-soft);
+    font-size: 0.875rem;
+  }
+
+  .footer-inner strong {
+    color: var(--vsp-primary-deep);
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .footer-links a {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+    color: var(--vsp-text-muted);
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+
+  .footer-links a:hover {
+    color: var(--vsp-primary-deep);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+</style>

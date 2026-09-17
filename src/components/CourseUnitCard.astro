@@ -1,0 +1,209 @@
+---
+import ResourceIcon from "./ResourceIcon.astro";
+import type { CourseResource, CourseUnit } from "../data/courses";
+
+type Props = {
+  unit: CourseUnit;
+  headingLevel?: "h3" | "h4";
+};
+
+const { unit, headingLevel = "h3" } = Astro.props;
+const Heading = headingLevel;
+
+const extraClass = {
+  markdown: "secondary",
+  slides: "primary",
+  pdf: "secondary",
+  html: "primary",
+  code: "secondary",
+  asset: "secondary",
+  video: "secondary",
+  link: "primary"
+};
+
+const fallbackResource: Record<"web" | "pdf", CourseResource> = {
+  web: {
+    title: "Web Slides",
+    label: "Web",
+    kind: "html",
+    source: "planned",
+    status: "planned"
+  },
+  pdf: {
+    title: "Slides PDF",
+    label: "PDF",
+    kind: "pdf",
+    source: "planned",
+    status: "planned"
+  }
+};
+
+function unitClass(item: CourseUnit) {
+  return [
+    "unit-card",
+    item.layout === "wide" ? "wide" : "",
+    item.layout === "asset-grid" ? "wide asset-grid-card" : "",
+    item.layout === "notice" || item.kind === "notice" ? "notice" : "",
+    item.layout === "coming-soon" || item.kind === "coming-soon" ? "coming-soon" : "",
+    item.kind === "exam" ? "exam" : ""
+  ]
+    .filter(Boolean)
+    .join(" ");
+}
+
+function resourceButtonClass(resource: CourseResource | undefined, variant: "web" | "pdf" | "extra") {
+  if (!resource || resource.status === "planned") return "resource-button muted";
+  if (variant === "web") return "resource-button primary";
+  if (variant === "pdf") return "resource-button secondary";
+  return `resource-button ${extraClass[resource.kind]}`;
+}
+
+function isAvailableResource(resource: CourseResource | undefined) {
+  return Boolean(resource && resource.status !== "planned" && resource.source !== "planned");
+}
+
+function extrasTitle(item: CourseUnit) {
+  if (item.kind === "tutorial" || item.kind === "recitation") return "课程文件";
+  if (item.kind === "project-doc") return "资料";
+  return "补充资料";
+}
+
+function resourceGridClass(resources: CourseResource[]) {
+  return resources.length === 1 ? "extras-grid single" : "extras-grid";
+}
+
+function externalLabel(resource: CourseResource) {
+  return `${resource.label ?? resource.title}（在新窗口打开）`;
+}
+---
+
+<article class={unitClass(unit)} data-tilt>
+  <div class="unit-body">
+    <p class="unit-id">{unit.id}</p>
+    <Heading>{unit.title}</Heading>
+    <p>{unit.summary}</p>
+  </div>
+
+  {unit.kind !== "coming-soon" && (
+    <div class="unit-resources">
+      {unit.slides && Object.values(unit.slides).some(isAvailableResource) && (
+        <div class="slides-panel" aria-label={`${unit.title}课件`}>
+          <p class="resource-group-title">课件</p>
+          <div class="slides-actions">
+            {(["web", "pdf"] as const).filter((slot) => isAvailableResource(unit.slides?.[slot])).map((slot) => {
+              const resource = unit.slides?.[slot];
+              const iconResource = resource ?? fallbackResource[slot];
+              const isAvailable = isAvailableResource(resource);
+              const Tag = isAvailable ? "a" : "span";
+              return (
+                <Tag
+                  class={resourceButtonClass(resource, slot)}
+                  title={resource?.title}
+                  href={isAvailable ? resource?.source : undefined}
+                  target={isAvailable ? "_blank" : undefined}
+                  rel={isAvailable ? "noreferrer" : undefined}
+                  aria-label={isAvailable && resource ? externalLabel(resource) : undefined}
+                  aria-disabled={!isAvailable ? "true" : undefined}
+                  role={!isAvailable ? "link" : undefined}
+                >
+                  <ResourceIcon name={iconResource.kind} />
+                  <span>{resource?.label ?? fallbackResource[slot].label}</span>
+                </Tag>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {unit.videos && unit.videos.some(isAvailableResource) && (
+        <div class="videos-panel" aria-label={`${unit.title}视频`}>
+          <p class="resource-group-title">视频</p>
+          <div class="video-actions">
+            {unit.videos.filter(isAvailableResource).map((resource) => {
+              const isAvailable = isAvailableResource(resource);
+              const Tag = isAvailable ? "a" : "span";
+              return (
+                <Tag
+                  class={resourceButtonClass(resource, "extra")}
+                  title={resource.title}
+                  href={isAvailable ? resource.source : undefined}
+                  target={isAvailable ? "_blank" : undefined}
+                  rel={isAvailable ? "noreferrer" : undefined}
+                  aria-label={isAvailable ? externalLabel(resource) : undefined}
+                  aria-disabled={!isAvailable ? "true" : undefined}
+                  role={!isAvailable ? "link" : undefined}
+                >
+                  <ResourceIcon name={resource.kind} />
+                  <span>{resource.label ?? resource.title}</span>
+                </Tag>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {unit.extras && unit.extras.some(isAvailableResource) && (
+        <div class="extras-panel" aria-label={`${unit.title}补充资料`}>
+          <p class="resource-group-title">{extrasTitle(unit)}</p>
+          <div class="extras-grid">
+            {unit.extras.filter(isAvailableResource).map((resource, index, resources) => {
+              const isAvailable = isAvailableResource(resource);
+              const Tag = isAvailable ? "a" : "span";
+              const spanFull = resources.length % 2 === 1 && index === resources.length - 1;
+              return (
+                <Tag
+                  class={`${resourceButtonClass(resource, "extra")} ${spanFull ? "span-full" : ""}`}
+                  title={resource.title}
+                  href={isAvailable ? resource.source : undefined}
+                  target={isAvailable ? "_blank" : undefined}
+                  rel={isAvailable ? "noreferrer" : undefined}
+                  aria-label={isAvailable ? externalLabel(resource) : undefined}
+                  aria-disabled={!isAvailable ? "true" : undefined}
+                  role={!isAvailable ? "link" : undefined}
+                >
+                  <ResourceIcon name={resource.kind} />
+                  <span>{resource.label ?? resource.title}</span>
+                </Tag>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {unit.resourceGroups && unit.resourceGroups.some((group) => group.resources.some(isAvailableResource)) && (
+        <div class="asset-columns" aria-label={`${unit.title}资源分组`}>
+          {unit.resourceGroups.filter((group) => group.resources.some(isAvailableResource)).map((group) => (
+            <section class="asset-column">
+              <div class="asset-column-copy">
+                <p class="resource-group-title">{group.title}</p>
+                {group.summary && <p>{group.summary}</p>}
+              </div>
+              <div class={resourceGridClass(group.resources)}>
+                  {group.resources.filter(isAvailableResource).map((resource, index, resources) => {
+                  const isAvailable = isAvailableResource(resource);
+                  const Tag = isAvailable ? "a" : "span";
+                    const spanFull = resources.length % 2 === 1 && index === resources.length - 1;
+                  return (
+                    <Tag
+                      class={`${resourceButtonClass(resource, "extra")} ${spanFull ? "span-full" : ""}`}
+                      title={resource.title}
+                      href={isAvailable ? resource.source : undefined}
+                      target={isAvailable ? "_blank" : undefined}
+                      rel={isAvailable ? "noreferrer" : undefined}
+                      aria-label={isAvailable ? externalLabel(resource) : undefined}
+                      aria-disabled={!isAvailable ? "true" : undefined}
+                      role={!isAvailable ? "link" : undefined}
+                    >
+                      <ResourceIcon name={resource.kind} />
+                      <span>{resource.label ?? resource.title}</span>
+                    </Tag>
+                  );
+                })}
+              </div>
+            </section>
+          ))}
+        </div>
+      )}
+    </div>
+  )}
+</article>

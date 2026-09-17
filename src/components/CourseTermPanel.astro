@@ -1,0 +1,79 @@
+---
+import CourseUnitCard from "./CourseUnitCard.astro";
+import type { CourseSection } from "../data/courses";
+
+type Props = {
+  courseCode: string;
+  sections: CourseSection[];
+  termDescription?: string;
+  termId: string;
+  termLabel: string;
+  isActive: boolean;
+};
+
+const { courseCode, sections, termDescription, termId, termLabel, isActive } = Astro.props;
+
+function sectionUnits(section: CourseSection) {
+  return section.units ?? [];
+}
+
+function anchorPart(value: string) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "section";
+}
+---
+
+<div class="term-panel" data-term-panel={termId} hidden={!isActive}>
+  {
+    sections.length > 0 ? (
+      <div class="course-sections">
+        {sections.map((section, sectionIndex) => {
+          const sectionId = `${anchorPart(courseCode)}-${anchorPart(termId)}-${sectionIndex}`;
+          return (
+            <section class={`course-section-block ${section.variant ?? "normal"}`} aria-labelledby={sectionId}>
+              <header class="course-section-header">
+                <div>
+                  {section.eyebrow && <p class="eyebrow">{section.eyebrow}</p>}
+                  <h2 id={sectionId} class="compact-title">{section.title}</h2>
+                  {section.description && <p class="section-copy">{section.description}</p>}
+                </div>
+              </header>
+
+              {section.units && (
+                <div class="unit-grid">
+                  {sectionUnits(section).map((unit) => <CourseUnitCard unit={unit} headingLevel="h3" />)}
+                </div>
+              )}
+
+              {section.groups && (
+                <div class="section-groups">
+                  {section.groups.map((group, groupIndex) => {
+                    const groupId = `${sectionId}-${groupIndex}`;
+                    return (
+                      <section class={`course-subsection-block ${group.variant ?? "normal"}`} aria-labelledby={groupId}>
+                        <header class="subsection-header">
+                          <h3 id={groupId}>{group.title}</h3>
+                          {group.description && <p>{group.description}</p>}
+                        </header>
+                        <div class="unit-grid">
+                          {sectionUnits(group).map((unit) => <CourseUnitCard unit={unit} headingLevel="h4" />)}
+                        </div>
+                      </section>
+                    );
+                  })}
+                </div>
+              )}
+            </section>
+          );
+        })}
+      </div>
+    ) : (
+      <article class="term-empty-state">
+        <div>
+          <p class="eyebrow">{courseCode} · {termLabel}</p>
+          <h2>暂无课程资料</h2>
+          {termDescription && <p>{termDescription}</p>}
+        </div>
+      </article>
+    )
+  }
+</div>

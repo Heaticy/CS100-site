@@ -1,0 +1,1864 @@
+{
+  "code": "CS100",
+  "title": "计算机编程",
+  "credits": "4 学分",
+  "hours": "64 课时",
+  "instructor": "张芯韵 助理教授",
+  "instructorUrl": "https://sist.shanghaitech.edu.cn/zxy1/main.htm",
+  "description": "CS100 计算机编程是计算机科学与技术专业的核心基础课程，采用“先 C 后 C++”的教学结构。课程覆盖数据类型、控制结构、函数、指针、数组、结构体、内存管理、面向对象编程、模板、异常处理和 STL 标准库等内容，并通过在线评测作业和 recitation 环节强化实践能力。",
+  "defaultTermId": "fall2026",
+  "terms": [
+    {
+      "id": "fall2026",
+      "label": "2026 Fall",
+      "status": "当前学期",
+      "description": "CS100 Lectures 与 Recitations · 2026 Fall",
+      "sections": [
+        {
+          "eyebrow": "CS100 · 2026 Fall",
+          "title": "课程信息",
+          "description": "16 周教学：C 语言（第 1–5 周）→ C++（第 6–16 周）；期中考试在第 13–15 周，无期末考试。",
+          "units": [
+            {
+              "id": "info-lecture",
+              "kind": "info",
+              "title": "上课时间",
+              "summary": "每周两讲：周二 13:00–14:40、周四 13:00–14:40，教学中心 302。"
+            },
+            {
+              "id": "info-recitation",
+              "kind": "info",
+              "title": "习题课（Recitation）",
+              "summary": "每周一 18:00–19:40，信息学院 1D-107，共约 15 次：编程工具介绍、知识扩展、作业/小测/考试讲解与编程示例，录像上传 Bilibili。"
+            },
+            {
+              "id": "info-materials",
+              "kind": "info",
+              "layout": "asset-grid",
+              "title": "教材与参考",
+              "summary": "课程内容遵循 C17 与 C++17 标准（基于 cppreference 与标准委员会文件）。推荐教材《C++ Primer》第 5 版（注意不是《C++ Primer Plus》）、《Effective C++》等，以下电子版转自课程 Piazza Materials，仅限课程学习使用。",
+              "resourceGroups": [
+                {
+                  "title": "中文",
+                  "resources": [
+                    {
+                      "title": "C Primer 中文版",
+                      "label": "C Primer 中文版",
+                      "kind": "pdf",
+                      "source": "https://courses.vsplab.cn/resources/cs100/books/C_Primer_CN.pdf",
+                      "status": "available"
+                    },
+                    {
+                      "title": "C++ 沉思录（中文版）",
+                      "label": "C++ 沉思录（中文版）",
+                      "kind": "pdf",
+                      "source": "https://courses.vsplab.cn/resources/cs100/books/CPP_Ruminations_CN.pdf",
+                      "status": "available"
+                    },
+                    {
+                      "title": "Effective C++ 中文版",
+                      "label": "Effective C++ 中文版",
+                      "kind": "pdf",
+                      "source": "https://courses.vsplab.cn/resources/cs100/books/Effective_CPP_CN.pdf",
+                      "status": "available"
+                    },
+                    {
+                      "title": "Effective Modern C++ 中文版",
+                      "label": "Effective Modern C++ 中文版",
+                      "kind": "pdf",
+                      "source": "https://courses.vsplab.cn/resources/cs100/books/Effective_Modern_CPP_CN.pdf",
+                      "status": "available"
+                    }
+                  ]
+                },
+                {
+                  "title": "English",
+                  "resources": [
+                    {
+                      "title": "C Primer",
+                      "label": "C Primer",
+                      "kind": "pdf",
+                      "source": "https://courses.vsplab.cn/resources/cs100/books/C_Primer.pdf",
+                      "status": "available"
+                    },
+                    {
+                      "title": "21st Century C",
+                      "label": "21st Century C",
+                      "kind": "pdf",
+                      "source": "https://courses.vsplab.cn/resources/cs100/books/21st_Century_C.pdf",
+                      "status": "available"
+                    },
+                    {
+                      "title": "Effective C++",
+                      "label": "Effective C++",
+                      "kind": "pdf",
+                      "source": "https://courses.vsplab.cn/resources/cs100/books/Effective_CPP.pdf",
+                      "status": "available"
+                    },
+                    {
+                      "title": "Effective Modern C++",
+                      "label": "Effective Modern C++",
+                      "kind": "pdf",
+                      "source": "https://courses.vsplab.cn/resources/cs100/books/Effective_Modern_CPP.pdf",
+                      "status": "available"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "eyebrow": "CS100 · 2026 Fall",
+          "title": "课程平台",
+          "description": "所有课程通知、资料与答疑均通过 Piazza 进行，建议每 12 小时查看一次；作业一律通过 Online Judge 提交。",
+          "units": [
+            {
+              "id": "platform-piazza",
+              "kind": "platform",
+              "title": "Piazza 讨论区",
+              "summary": "课程通知、课件资料发布与师生问答的唯一平台。",
+              "extras": [
+                {
+                  "title": "进入 CS100 Piazza 班级",
+                  "label": "进入 Piazza",
+                  "kind": "link",
+                  "source": "https://piazza.com/class/mu0malee1hh3po/",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "id": "platform-oj",
+              "kind": "platform",
+              "title": "Online Judge",
+              "summary": "作业唯一提交渠道，每题取最后一次提交的分数；使用课程提供的账号信息登录。",
+              "extras": [
+                {
+                  "title": "进入 CS100 Gradescope 课程",
+                  "label": "进入 Gradescope",
+                  "kind": "link",
+                  "source": "https://www.gradescope.com/courses/1402185",
+                  "status": "available"
+                }
+              ]
+            },
+            {
+              "id": "platform-integrity",
+              "kind": "notice",
+              "layout": "notice",
+              "title": "学术诚信提醒",
+              "summary": "严禁抄袭，处罚严厉。AI 工具（GPT、Copilot 等）产出的内容视同互联网资料：两人提交相同代码即构成抄袭，「用了同一个 ChatGPT 账号」「Copilot 生成了相同代码」等理由均不被接受。"
+            }
+          ]
+        },
+        {
+          "eyebrow": "CS100 · 2026 Fall",
+          "title": "考核方式",
+          "description": "作业 72% + 期中考试 22% + 小测 6%，无期末考试（比例可能微调）。",
+          "units": [
+            {
+              "id": "grade-homework",
+              "kind": "grading",
+              "title": "作业 · 72%",
+              "summary": "共 7 次，通过 Online Judge 提交，每题以最后一次提交的分数为准。"
+            },
+            {
+              "id": "grade-midterm",
+              "kind": "grading",
+              "title": "期中考试 · 22%",
+              "summary": "第 13–15 周进行，范围覆盖课堂与习题课全部内容（除非另有说明）。"
+            },
+            {
+              "id": "grade-quiz",
+              "kind": "grading",
+              "title": "小测 · 6%",
+              "summary": "1–2 次，随堂进行，时间不提前通知。"
+            }
+          ]
+        },
+        {
+          "eyebrow": "CS100 · 2026 Fall",
+          "title": "Lecture 课件",
+          "description": "课件随课程进度陆续上传；习题课（Recitation）资料将另行发布。",
+          "units": [
+            {
+              "id": "l0",
+              "kind": "lecture",
+              "title": "Lecture 0: Introduction",
+              "summary": "课程介绍：教学安排、考核方式、课程平台与学术诚信要求。",
+              "slides": {
+                "pdf": {
+                  "title": "Lecture 0: Introduction PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2026/lec00.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l1",
+              "kind": "lecture",
+              "title": "Lecture 1",
+              "summary": "2026 Fall 课程课件。",
+              "slides": {
+                "pdf": {
+                  "title": "Lecture 1 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2026/lec01.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l2",
+              "kind": "lecture",
+              "title": "Lecture 2",
+              "summary": "2026 Fall 课程课件。",
+              "slides": {
+                "pdf": {
+                  "title": "Lecture 2 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2026/lec02.pdf",
+                  "status": "available"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fall2025",
+      "label": "2025 Fall",
+      "status": "历史学期",
+      "description": "CS100 Lectures 与 Recitations · 2025 Fall",
+      "sections": [
+        {
+          "eyebrow": "CS100",
+          "title": "Recitation",
+          "description": "课程讲义与配套材料。",
+          "units": [
+            {
+              "id": "r0",
+              "kind": "recitation",
+              "title": "Recitation 0: Environment Setup",
+              "summary": "开发环境配置、VS Code、编译工具链和幻灯片工具使用。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 0: Environment Setup Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r0.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 0: Environment Setup PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r0.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 0: Environment Setup Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r1",
+              "kind": "recitation",
+              "title": "Recitation 1: Introduction to CS100 and C/C++",
+              "summary": "课程介绍、C/C++ 基础和入门材料。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 1: Introduction to CS100 and C/C++ Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r1.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 1: Introduction to CS100 and C/C++ PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r1.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 1: Introduction to CS100 and C/C++ Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r2",
+              "kind": "recitation",
+              "title": "Recitation 2: Data Types, Literals & Operators",
+              "summary": "数据类型、字面量、运算符和表示方法。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 2: Data Types, Literals & Operators Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r2.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 2: Data Types, Literals & Operators PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r2.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 2: Data Types, Literals & Operators Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r3",
+              "kind": "recitation",
+              "title": "Recitation 3: Control Flow and Preprocessing",
+              "summary": "控制流、预处理、多文件和变量解释。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 3: Control Flow and Preprocessing Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r3.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 3: Control Flow and Preprocessing PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r3.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 3: Control Flow and Preprocessing Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r4",
+              "kind": "recitation",
+              "title": "Recitation 4: Pointers & Arrays",
+              "summary": "指针、数组、二维动态内存和 undefined behavior。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 4: Pointers & Arrays Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r4.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 4: Pointers & Arrays PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r4.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 4: Pointers & Arrays Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "midterm",
+              "kind": "exam",
+              "title": "Midterm Review",
+              "summary": "期中复习。",
+              "slides": {
+                "web": {
+                  "title": "Midterm Review Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "planned",
+                  "status": "planned"
+                },
+                "pdf": {
+                  "title": "Midterm Review PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "planned",
+                  "status": "planned"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Midterm Review Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r5",
+              "kind": "recitation",
+              "title": "Recitation 5: IO and Compound Data Structures",
+              "summary": "IO 和复合数据结构。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 5: IO and Compound Data Structures Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r5.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 5: IO and Compound Data Structures PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r5.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 5: IO and Compound Data Structures Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r6",
+              "kind": "recitation",
+              "title": "Recitation 6: Hello, C++!",
+              "summary": "Hello, C++!",
+              "slides": {
+                "web": {
+                  "title": "Recitation 6: Hello, C++! Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r6.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 6: Hello, C++! PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r6.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 6: Hello, C++! Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "bonus-git",
+              "kind": "recitation",
+              "title": "Bonus: Git",
+              "summary": "Git 基础、版本控制工作流和常用命令。",
+              "slides": {
+                "web": {
+                  "title": "Bonus: Git Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/bonus-git.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Bonus: Git PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/bonus-git.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Bonus: Git Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r7",
+              "kind": "recitation",
+              "title": "Recitation 7: References, Value Categories, new/delete",
+              "summary": "引用、左右值、new 和 delete。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 7: References, Value Categories, new/delete Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r7.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 7: References, Value Categories, new/delete PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r7.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 7: References, Value Categories, new/delete Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r8",
+              "kind": "recitation",
+              "title": "Recitation 8: class Basics",
+              "summary": "class 初步。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 8: class Basics Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r8.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 8: class Basics PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r8.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 8: class Basics Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r9",
+              "kind": "recitation",
+              "title": "Recitation 9: Dynarray Example",
+              "summary": "Class Example: 以 Dynarray 为例。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 9: Dynarray Example Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r9.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 9: Dynarray Example PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r9.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 9: Dynarray Example Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r10",
+              "kind": "recitation",
+              "title": "Recitation 10: Copy and Move",
+              "summary": "拷贝、移动和拷贝控制成员。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 10: Copy and Move Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r10.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 10: Copy and Move PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r10.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 10: Copy and Move Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r11",
+              "kind": "recitation",
+              "title": "Recitation 11: Operator Overloading",
+              "summary": "多返回值操作和运算符重载。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 11: Operator Overloading Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r11.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 11: Operator Overloading PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r11.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 11: Operator Overloading Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r12",
+              "kind": "recitation",
+              "title": "Recitation 12: Iterators and Algorithms",
+              "summary": "迭代器、范围和标准算法。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 12: Iterators and Algorithms Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r12.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 12: Iterators and Algorithms PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r12.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 12: Iterators and Algorithms Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r13",
+              "kind": "recitation",
+              "title": "Recitation 13: Makefile",
+              "summary": "Makefile、依赖关系和构建规则。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 13: Makefile Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r13.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 13: Makefile PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/r13.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 13: Makefile Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "eyebrow": "CS100",
+          "title": "Lectures",
+          "description": "CS100 lecture slides，已挂到最新参与学期。",
+          "units": [
+            {
+              "id": "l0",
+              "kind": "recitation",
+              "title": "Lecture 0",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 0 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l0.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 0 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l0.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l1",
+              "kind": "recitation",
+              "title": "Lecture 1",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 1 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l1.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 1 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l1.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l2",
+              "kind": "recitation",
+              "title": "Lecture 2",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 2 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l2.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 2 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l2.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l3",
+              "kind": "recitation",
+              "title": "Lecture 3",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 3 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l3.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 3 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l3.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l4",
+              "kind": "recitation",
+              "title": "Lecture 4",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 4 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l4.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 4 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l4.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l5",
+              "kind": "recitation",
+              "title": "Lecture 5",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 5 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l5.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 5 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l5.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l6",
+              "kind": "recitation",
+              "title": "Lecture 6",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 6 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l6.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 6 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l6.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l7",
+              "kind": "recitation",
+              "title": "Lecture 7",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 7 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l7.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 7 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l7.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l8",
+              "kind": "recitation",
+              "title": "Lecture 8",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 8 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l8.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 8 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l8.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l9",
+              "kind": "recitation",
+              "title": "Lecture 9",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 9 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l9.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 9 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l9.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l10",
+              "kind": "recitation",
+              "title": "Lecture 10",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 10 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l10.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 10 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l10.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l11",
+              "kind": "recitation",
+              "title": "Lecture 11",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 11 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l11.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 11 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l11.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l12",
+              "kind": "recitation",
+              "title": "Lecture 12",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 12 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l12.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 12 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l12.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l13",
+              "kind": "recitation",
+              "title": "Lecture 13",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 13 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l13.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 13 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l13.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l14",
+              "kind": "recitation",
+              "title": "Lecture 14",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 14 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l14.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 14 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l14.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l15",
+              "kind": "recitation",
+              "title": "Lecture 15",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 15 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l15.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 15 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l15.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l16",
+              "kind": "recitation",
+              "title": "Lecture 16",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 16 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l16.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 16 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l16.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l17",
+              "kind": "recitation",
+              "title": "Lecture 17",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 17 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l17.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 17 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l17.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l18",
+              "kind": "recitation",
+              "title": "Lecture 18",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 18 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l18.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 18 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l18.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l19",
+              "kind": "recitation",
+              "title": "Lecture 19",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 19 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l19.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 19 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l19.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l20",
+              "kind": "recitation",
+              "title": "Lecture 20",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 20 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l20.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 20 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l20.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l21",
+              "kind": "recitation",
+              "title": "Lecture 21",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 21 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l21.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 21 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l21.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l22",
+              "kind": "recitation",
+              "title": "Lecture 22",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 22 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l22.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 22 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l22.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l23",
+              "kind": "recitation",
+              "title": "Lecture 23",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 23 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l23.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 23 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l23.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l24",
+              "kind": "recitation",
+              "title": "Lecture 24",
+              "summary": "CS100 Lecture 24 课程讲义。",
+              "slides": {
+                "pdf": {
+                  "title": "PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "planned",
+                  "status": "planned"
+                }
+              }
+            },
+            {
+              "id": "l25",
+              "kind": "recitation",
+              "title": "Lecture 25",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 25 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l25.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 25 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l25.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l26",
+              "kind": "recitation",
+              "title": "Lecture 26",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 26 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l26.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 26 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l26.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l27",
+              "kind": "recitation",
+              "title": "Lecture 27",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 27 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l27.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 27 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l27.pdf",
+                  "status": "available"
+                }
+              }
+            },
+            {
+              "id": "l28",
+              "kind": "recitation",
+              "title": "Lecture 28",
+              "summary": "CS100 lecture slide.",
+              "slides": {
+                "web": {
+                  "title": "Lecture 28 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l28.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Lecture 28 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2025/lectures/l28.pdf",
+                  "status": "available"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fall2024",
+      "label": "2024 Fall",
+      "status": "历史学期",
+      "description": "CS100 Recitations · 2024 Fall",
+      "sections": [
+        {
+          "eyebrow": "CS100",
+          "title": "Recitation",
+          "description": "李超凡参与的 2024 Fall recitation 资料。",
+          "units": [
+            {
+              "id": "r1",
+              "kind": "recitation",
+              "title": "Recitation 1",
+              "summary": "CS100 2024 Fall Recitation 1。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 1 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r1.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 1 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r1.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 1 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r2",
+              "kind": "recitation",
+              "title": "Recitation 2",
+              "summary": "CS100 2024 Fall Recitation 2。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 2 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r2.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 2 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r2.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 2 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r3",
+              "kind": "recitation",
+              "title": "Recitation 3",
+              "summary": "CS100 2024 Fall Recitation 3。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 3 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r3.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 3 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r3.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 3 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r3-5",
+              "kind": "recitation",
+              "title": "Bonus: Git",
+              "summary": "CS100 2024 Fall Git bonus recitation。",
+              "slides": {
+                "web": {
+                  "title": "Bonus: Git Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r3-5.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Bonus: Git PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r3-5.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Bonus: Git Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r4",
+              "kind": "recitation",
+              "title": "Recitation 4",
+              "summary": "CS100 2024 Fall Recitation 4。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 4 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r4.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 4 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r4.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 4 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r5",
+              "kind": "recitation",
+              "title": "Recitation 5",
+              "summary": "CS100 2024 Fall Recitation 5。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 5 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r5.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 5 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r5.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 5 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r6",
+              "kind": "recitation",
+              "title": "Recitation 6",
+              "summary": "CS100 2024 Fall Recitation 6。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 6 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r6.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 6 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r6.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 6 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r7",
+              "kind": "recitation",
+              "title": "Recitation 7",
+              "summary": "CS100 2024 Fall Recitation 7。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 7 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r7.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 7 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r7.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 7 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r8",
+              "kind": "recitation",
+              "title": "Recitation 8",
+              "summary": "CS100 2024 Fall Recitation 8。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 8 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r8.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 8 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r8.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 8 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r9",
+              "kind": "recitation",
+              "title": "Recitation 9",
+              "summary": "CS100 2024 Fall Recitation 9。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 9 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r9.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 9 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r9.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 9 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r10",
+              "kind": "recitation",
+              "title": "Recitation 10",
+              "summary": "CS100 2024 Fall Recitation 10。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 10 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r10.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 10 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r10.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 10 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r11",
+              "kind": "recitation",
+              "title": "Recitation 11",
+              "summary": "CS100 2024 Fall Recitation 11。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 11 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r11.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 11 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r11.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 11 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r12",
+              "kind": "recitation",
+              "title": "Recitation 12",
+              "summary": "CS100 2024 Fall Recitation 12。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 12 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r12.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 12 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r12.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 12 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r13",
+              "kind": "recitation",
+              "title": "Recitation 13",
+              "summary": "CS100 2024 Fall Recitation 13。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 13 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r13.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 13 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r13.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 13 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            },
+            {
+              "id": "r14",
+              "kind": "recitation",
+              "title": "Recitation 14",
+              "summary": "CS100 2024 Fall Recitation 14。",
+              "slides": {
+                "web": {
+                  "title": "Recitation 14 Web Slides",
+                  "label": "Web",
+                  "kind": "html",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r14.html",
+                  "status": "legacy-html"
+                },
+                "pdf": {
+                  "title": "Recitation 14 PDF",
+                  "label": "PDF",
+                  "kind": "pdf",
+                  "source": "/CS100/resources/cs100/generated/fall2024/recitations/r14.pdf",
+                  "status": "available"
+                }
+              },
+              "videos": [
+                {
+                  "title": "Recitation 14 Recording",
+                  "label": "录播索引",
+                  "kind": "video",
+                  "source": "planned",
+                  "status": "indexed"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
